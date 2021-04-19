@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
-  def home #Tells rails that the home action called from routes.rb has to render home.html.erb from views/pages
+  def home
   end
 
-  def about
-  end
+  # def about --> Tells rails that the about action called from routes.rb has to render about.html.erb from views/pages
+  # end
 end
